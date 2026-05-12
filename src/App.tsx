@@ -32,7 +32,7 @@ export default function App() {
     <div className="min-h-screen bg-white font-sans text-[#141414] overflow-x-hidden">
       {/* Top Warning Bar */}
       <div className="bg-black py-2 md:py-3 px-4 text-center">
-        <p className="text-white text-xs md:text-sm font-bold uppercase tracking-tight">
+        <p className="text-white text-[15px] font-bold uppercase tracking-tight">
           Devido a aula explicita, o vídeo ficará disponível somente até:{" "}
           <span className="text-[#EAB308]">{currentDate}</span>
         </p>
